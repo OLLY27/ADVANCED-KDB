@@ -176,26 +176,26 @@ You may wish to go back and add in nulls to the previous data for the new column
 /////////////////////////////   EXERCISE 2 - PART 1    /////////////////////////////
 QUESTION: The below tickerplant log contains and error. a) Locate the error b) Fix the error Show how each was performed
 
-ANSWER: tpLogIssues.txt
+ANSWER: https://github.com/OLLY27/ADVANCED-KDB/blob/main/tpLogIssues.txt
 
 
 /////////////////////////////   EXERCISE 2 - PART 2    /////////////////////////////
 
 QUESTION: The 3 tables in the below zip file contain errors. Try to ascertain the error and recommend a suitable fix for each.
 
-ANSWER: fileIssues.txt
+ANSWER: https://github.com/OLLY27/ADVANCED-KDB/blob/main/fileIssues.txt
 
 /////////////////////////////   EXERCISE 2 - PART 3    /////////////////////////////
 
 QUESTION: In your current system you have a historical database and a single hdb kdb+ instance to host user queries. Users are complaining about slowness. What is the probable cause of the slowness and suggest 2 changes that could be made to alleviate the problem. Maintain a single entry point to the system if possible
 
-ANSWER: fasterhdb.txt
+ANSWER: https://github.com/OLLY27/ADVANCED-KDB/blob/main/fasterhdb.txt
 
 /////////////////////////////   EXERCISE 2 - PART 4    /////////////////////////////
 
 QUESTION: Improve the performance of function StringtoDate:{[x]{$[10h~abs type x;x:"D"$x;-14h~ type x;x:x;`date$x]}'[x]} given input: raze 500000#enlist("2010.01.01";2010.01.02). Do not use .Q.fu.
 
-ANSWER: fasterquery.txt
+ANSWER: https://github.com/OLLY27/ADVANCED-KDB/blob/main/fasterquery.txt
 
 
 ///////////////////////////////////////////////////////////////////////////////////////
